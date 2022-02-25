@@ -18,7 +18,7 @@ namespace PracticaPOO704
             Console.WriteLine("\n Ingresa tu número de documento");
             sara.SetDocumento(Console.ReadLine());
 
-            Console.WriteLine($"Su nombre es: {sara.ObtenerNombre()}, su edad es: {sara.ObtenerEdad()} y el número de identificación es: {sara.ObtenerDocumento()}.");
+            Console.WriteLine($"Su nombre es: {sara.ObtenerNombre()}, su edad es: {sara.ObtenerEdad()} y el número de identificación es: {sara.ObtenerDocumento()}. ");
 
             Console.WriteLine("Ingrese el nombre:");
             var nombre = Console.ReadLine();
